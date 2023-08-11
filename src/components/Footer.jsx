@@ -29,7 +29,7 @@ const Footer = () => {
             <li><a href="#">About</a></li>
             <li><a href="#">What we do</a></li>
             <li><i className="bi bi-telephone-inbound-fill"></i> +255 620 583 841</li>
-            <li><i className="bi bi-envelope"></i> <a href="mailto:info@flygo.com">info@drst.or.tz</a></li>
+            <li><i className="bi bi-envelope"></i> <a href="mailto:info@drst.or.tz">info@drst.or.tz</a></li>
           </ul>
         </div>
       </div>

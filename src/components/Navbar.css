@@ -1,0 +1,16 @@
+.mystyle:hover {
+    /* background-color: blue;
+    color: white; */
+    /* background-color: black; */
+    text-decoration: underline;
+  }
+  
+  .navbar {
+    top: 0;
+    height: 500px;
+    width: 100%;
+    z-index: 100; /* This ensures the navbar stays on top of all other content */
+  }
+  .mystyle {
+    line-height: 500px; /* Vertically center the text */
+  }

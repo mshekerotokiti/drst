@@ -1,0 +1,66 @@
+i {
+    color: rgb(232, 202, 10);
+}
+
+
+/* Contact.css */
+
+.contact-container {
+    display: flex;
+    gap: 60px; /* Adjust the gap between columns */
+  }
+  
+  .contact-details {
+    
+  }
+  
+  .contact-form {
+    flex: 1;
+    flex-direction: column;
+  }
+  
+  /* Style for the contact list */
+  .contact-list {
+    list-style: none;
+    padding: 0;
+    flex-direction: column;
+    margin-left:30px ;
+  }
+  
+  .contact-list li {
+    margin-bottom: 15px;
+    margin-right: 400px;
+  }
+  
+  /* Style for the form */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-group textarea {
+    resize: horizontal;
+  }
+  
+  button[type="submit"] {
+    background-color: rgb(232, 202, 10);
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bolder;
+    margin-bottom: 20px;
+  }
+  
