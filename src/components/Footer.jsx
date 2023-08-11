@@ -26,8 +26,8 @@ const Footer = () => {
         <div className='footercolumn'>
           <h3>Contact Details</h3>
           <ul className="list-unstyled">
-            <li><a href="#">About</a></li>
-            <li><a href="#">What we do</a></li>
+            <li><a href="about">About</a></li>
+            <li><a href="whatwedo">Whatwedo</a></li>
             <li><i className="bi bi-telephone-inbound-fill"></i> +255 620 583 841</li>
             <li><i className="bi bi-envelope"></i> <a href="mailto:info@drst.or.tz">info@drst.or.tz</a></li>
           </ul>

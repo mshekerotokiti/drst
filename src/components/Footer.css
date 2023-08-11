@@ -32,10 +32,10 @@ ul i {
 
 /* Customize the appearance of the social icons */
 ul li a {
-  color: #333; /* Change the color as needed */
+  color: #333; 
   text-decoration: none;
 }
 
 ul li a:hover {
-  color: #007bff; /* Change the hover color as needed */
+  color: #007bff; 
 }

@@ -10,10 +10,10 @@ i {
     gap: 60px; /* Adjust the gap between columns */
   }
   
-  .contact-details {
-    
+  /* .contact-details {
+    flex: 0.2;
   }
-  
+   */
   .contact-form {
     flex: 1;
     flex-direction: column;
