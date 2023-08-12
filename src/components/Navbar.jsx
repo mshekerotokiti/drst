@@ -14,22 +14,22 @@ const Navbar = () => {
         <div className="navbar-collapse" id="navbarTogglerDemo02">
           <ul className="navbar-list">
             <li className="navbar-item">
-              <a href="#home" className="navbar-link active">
+              <a href="home" className="navbar-link active">
                 Home
               </a>
             </li>
             <li className="navbar-item">
-              <a href="#about" className="navbar-link">
+              <a href="about" className="navbar-link">
                 About
               </a>
             </li>
             <li className="navbar-item">
-              <a href="#whatwedo" className="navbar-link">
+              <a href="whatwedo" className="navbar-link">
                 What We Do
               </a>
             </li>
             <li className="navbar-item">
-              <a href="#contact" className="navbar-link">
+              <a href="contact" className="navbar-link">
                 Contact
               </a>
             </li>

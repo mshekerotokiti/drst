@@ -9,10 +9,10 @@ const Footer = () => {
         <div className='footercolumn'>
           <h3>Contact Us</h3>
           <ul className="list-unstyled">
-            <li><i className="bi bi-twitter"></i> <a href="#">Twitter</a></li>
-            <li><i className="bi bi-facebook"></i> <a href="#">Facebook</a></li>
-            <li><i className="bi bi-instagram"></i> <a href="#">Instagram</a></li>
-            <li><i className="bi bi-youtube"></i> <a href="#">YouTube</a></li>
+            <li><i className="bi bi-twitter"></i> <a href="https://twitter.com/drs_tanzania">Twitter</a></li>
+            <li><i className="bi bi-facebook"></i> <a href="https://web.facebook.com/people/DRS-TANZANIA/100086490039454/">Facebook</a></li>
+            <li><i className="bi bi-instagram"></i> <a href="https://www.instagram.com/drstanzania/">Instagram</a></li>
+            <li><i className="bi bi-youtube"></i> <a href="https://www.youtube.com/@drstanzania">YouTube</a></li>
           </ul>
         </div>
 
@@ -20,6 +20,7 @@ const Footer = () => {
           <h3>Location</h3>
           <ul className="list-unstyled">
           <li><i className="bi bi-geo-alt-fill"></i> Kasulu Town Murubona Area Kigoma,Tanzania</li>
+          <li><a href="contact">Donate</a></li>
           </ul>
         </div>
 
