@@ -8,13 +8,13 @@ const Navbar = () => {
       <nav className="navbar">
         <div className="navbar-brand">
           <Link to="/" className="navbar-logo">
-            <img src="./drst.jpg" alt="DRST" />
+            <img src="./assets/drst.jpg" alt="DRST" className="round-logo" />
           </Link>
         </div>
         <div className="navbar-collapse" id="navbarTogglerDemo02">
           <ul className="navbar-list">
             <li className="navbar-item">
-              <a href="home" className="navbar-link active">
+              <a href="/" className="navbar-link active">
                 Home
               </a>
             </li>

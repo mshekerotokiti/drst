@@ -1,5 +1,6 @@
 import React from 'react';
 import {useState} from 'react';
+import Navbar from './Navbar';
 import './Contact.css';
 
 const Contact = () => {
@@ -14,6 +15,8 @@ const Contact = () => {
   };
 
   return (
+    <>
+    <Navbar/>
     <div className="contact-container">
      <div className="contact-details"></div>
       <ul className="contact-list">
@@ -65,10 +68,11 @@ const Contact = () => {
             required
           />
         </div>
-        <button type="submit">Send</button>
+        <button type="submit"><a href="mailto:info@drst.or.tz">Send</a></button>
       </form>
     </div>
     </div>
+    </>
   )
 }
 
