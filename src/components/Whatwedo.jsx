@@ -1,7 +1,7 @@
 import React from 'react'
 import {useState} from 'react';
-// import Navbar from './Navbar';
-// import Footer from './Footer';
+import Navbar from './Navbar';
+import Footer from './Footer';
 import './Whatwedo.css';
 
 const Whatwedo = () => {
@@ -13,7 +13,7 @@ const Whatwedo = () => {
 
   return (
     <div>
-      {/* <Navbar/> */}
+      <Navbar/>
       <h3>Areas of Work</h3>
       <p className='whatwedo'>
         {showFullText
@@ -45,7 +45,7 @@ const Whatwedo = () => {
 </ul>
 
 
-          {/* <Footer/> */}
+          <Footer/>
     </div>
   
   )
