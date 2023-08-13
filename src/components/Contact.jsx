@@ -1,7 +1,7 @@
 import React from 'react';
 import {useState} from 'react';
-import Navbar from './Navbar';
-import Footer from './Footer';
+// import Navbar from './Navbar';
+// import Footer from './Footer';
 import './Contact.css';
 
 const Contact = () => {
@@ -17,7 +17,7 @@ const Contact = () => {
 
   return (
     <>
-    <Navbar/>
+    {/* <Navbar/> */}
     <div className="contact-container">
      <div className="contact-details"></div>
       <ul className="contact-list">
@@ -74,7 +74,7 @@ const Contact = () => {
      
     </div>
     </div>
-    <Footer/>
+    {/* <Footer/> */}
     </>
   )
 }

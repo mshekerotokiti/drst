@@ -1,12 +1,12 @@
 import React from 'react';
-import Navbar from './Navbar';
-import Footer from './Footer';
+// import Navbar from './Navbar';
+// import Footer from './Footer';
 import './About.css'
 
 const About = () => {
   return (
     <div>
-      <Navbar/>
+      {/* <Navbar/> */}
       <h3>Organization Background</h3>
       <p className='about'>
 DISABILITY RELIEF SERVICES (DRS) TANZANIA is a registered Non-Government Organization. It has been established since 2008 and got legal registration No. 00NGO/00002597 of 16th October 2008. It is a nonprofit making organization dealing improvement of socio-economic condition in vulnerable, marginalized and deprived communities in refugee’s camp and host communities Tanzania. Core activities of the DRS-TANZANIA are Social Protection Interventions for People with Special Needs (PWSNs) and adolescent girls and young women (AGYW), advocacy and promotion for human rights, actions to end Violence Against Women and Children (VAWC), Social economic empowerment, Environment, Zero Human Trafficking and Health.
@@ -39,7 +39,7 @@ Our mission is to transform PSNs to be dynamic, professional, efficient and effe
   <li>Equity and Diversity</li>
   <li>Transparency and Accountability</li>
 </ol>
- <Footer/>
+ {/* <Footer/> */}
     </div>
   )
 }
