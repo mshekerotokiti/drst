@@ -1,6 +1,7 @@
 import React from 'react';
 import {useState} from 'react';
 import Navbar from './Navbar';
+import Footer from './Footer';
 import './Contact.css';
 
 const Contact = () => {
@@ -70,8 +71,10 @@ const Contact = () => {
         </div>
         <button type="submit"><a href="mailto:info@drst.or.tz">Send</a></button>
       </form>
+     
     </div>
     </div>
+    <Footer/>
     </>
   )
 }

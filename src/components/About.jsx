@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar';
+import Footer from './Footer';
 import './About.css'
 
 const About = () => {
@@ -38,6 +39,7 @@ Our mission is to transform PSNs to be dynamic, professional, efficient and effe
   <li>Equity and Diversity</li>
   <li>Transparency and Accountability</li>
 </ol>
+ <Footer/>
     </div>
   )
 }
